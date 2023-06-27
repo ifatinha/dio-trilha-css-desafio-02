@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Youtube;
+    src        : url(/fonts/youtube-sans-cufonfonts/YouTubeSansBlack.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Youtube;
+    src        : url(/fonts/youtube-sans-cufonfonts/YouTubeSansBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Youtube;
+    src        : url(/fonts/youtube-sans-cufonfonts/YouTubeSansExtrabold.otf);
+    font-weight: 900;
+}

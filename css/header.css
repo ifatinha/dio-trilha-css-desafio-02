@@ -1,0 +1,48 @@
+.header {
+    align-items    : center;
+    flex-wrap      : wrap;
+    justify-content: space-between;
+    padding        : 18px 1%;
+    width          : 100%;
+}
+
+.header-left {
+    align-items     : center;
+    gap             : 10px;
+    flex            : 0 1 180px;
+}
+
+.header-left_menu {
+    border-radius: 50%;
+    cursor       : pointer;
+    height       : 42px;
+    padding      : 12px;
+    transition   : .3s all ease-in-out;
+    text-align   : center;
+    width        : 42px;
+}
+
+.header-left_menu:hover {
+    background-color: var(--theme-links_houver);
+}
+
+.header-left_menu img {
+    height    : 100%;
+    object-fit: cover;
+    width     : 100%;
+}
+
+.header-left_logo img {
+    height: 20px;
+    width : 90px;
+}
+
+.header-center {
+    background-color: darkblue;
+    flex            : 1;
+}
+
+.header-right {
+    background-color: darkgreen;
+    flex            : 0 1 170px;
+}
