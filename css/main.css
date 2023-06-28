@@ -3,6 +3,7 @@
 
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
 /* colors */
 @import url("colors.css");
 
@@ -11,3 +12,6 @@
 
 /* header */
 @import url("header.css");
+
+/* main */
+@import url("video.css");
