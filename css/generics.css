@@ -1,8 +1,21 @@
 body {
     background-color: var(--theme-color);
-    font-family: 'Roboto', sans-serif;
+    font-family     : 'Roboto', sans-serif;
 }
 
 .flex {
     display: flex;
+}
+
+.btn-round {
+    border-radius: 50%;
+    cursor       : pointer;
+    height       : 42px;
+    text-align   : center;
+    transition   : .3s all ease-in-out;
+    width        : 42px;
+}
+
+.btn-round:hover {
+    background-color: var(--theme-links_hover);
 }
