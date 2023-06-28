@@ -1,4 +1,10 @@
 :root {
     --theme-color       : #000;
-    --theme-links_houver: #212121;
+    --theme-links_hover : #212121;
+    --theme-input_bg    : #121212;
+    --theme-input_color : #888888;
+    --theme-input_border: #303030;
+    --theme-btn_voz     : #181818;
+    --theme-input_hover : #3ea6ff;
+    --white             : #ffffff;
 }
