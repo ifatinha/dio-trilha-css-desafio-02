@@ -236,6 +236,68 @@
     flex-direction: column;
 }
 
+.comment-container>a {
+    font-size: 0.875rem;
+}
+
+.comment-container>a span {
+    color    : var(--gray);
+    font-size: 0.75rem;
+}
+
+.comment-container p {
+    font-size    : 0.875rem;
+    line-height  : 20px;
+    margin-bottom: 8px;
+}
+
+.comment-buttons {
+    align-items: center;
+    gap        : 20px;
+}
+
+.comment-buttons>div {
+    align-items: center;
+    gap        : 2px;
+}
+
+.btn-like {
+    align-items    : center;
+    font-size      : 0.75rem;
+    height         : 32px;
+    justify-content: center;
+    width          : 32px;
+}
+
+.comment-buttons>div span {
+    color      : var(--gray);
+    font-size  : 0.75rem;
+    line-height: 1.125rem;
+}
+
+.btn-response {
+    background : transparent;
+    font-size  : 0.75rem;
+    font-weight: 500;
+}
+
+.btn-blue {
+    align-items     : center;
+    background-color: transparent;
+    color           : var(--theme-input_hover);
+    font-size       : 0.875rem;
+    font-weight     : 500;
+    gap             : 5px;
+    justify-content : space-between;
+    line-height     : 36px;
+    max-width       : 136px;
+    transition      : .3s all ease-in-out;
+}
+
+.btn-blue:hover {
+    background-color: #263850;
+}
+
 /*****************************************************/
 
 .lista-videos {
