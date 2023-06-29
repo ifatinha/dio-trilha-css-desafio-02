@@ -37,18 +37,62 @@
 }
 
 .video-item {
-    border-radius   : 8px ;
-    cursor          : pointer;
-    gap             : 10px;
-    height          : 98px;
-    overflow        : hidden;
-    width           : 100%;
+    border-radius: 8px 0 0 8px;
+    cursor       : pointer;
+    gap          : 10px;
+    height       : 98px;
+    overflow     : hidden;
+    position     : relative;
+    transition   : .3s all ease-in-out;
+    width        : 100%;
 }
 
 .video-item_img {
     border-radius: 8px;
     height       : 98px;
+    position     : relative;
     width        : 40%;
+}
+
+.time {
+    background-color: var(--theme-color);
+    border-radius   : 4px;
+    color           : var(--white);
+    bottom          : 4px;
+    font-size       : 0.75rem;
+    font-weight     : 500;
+    position        : absolute;
+    padding         : 2px 4px;
+    right           : 4px;
+}
+
+.img-detail {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius   : 4px;
+    display         : none;
+    height          : 28px;
+    padding         : 2%;
+    position        : absolute;
+    right           : 5px;
+    top             : 5px;
+    text-align      : center;
+    transition      : .3s all ease-in-out;
+    width           : 28px;
+}
+
+a.img-detail:nth-child(2) {
+    top: 40px;
+}
+
+.video-item_menu {
+    display : none;
+    position: absolute;
+    right   : 5px;
+}
+
+.video-item:hover .img-detail,
+.video-item:hover .video-item_menu {
+    display: inline-block;
 }
 
 .video-item_img img {
@@ -59,17 +103,19 @@
 }
 
 .video-item_desc {
-    color   : var(--gray);
-    overflow: hidden;
-    width   : 60%;
+    color        : var(--gray);
+    overflow     : hidden;
+    padding-right: 10px;
+    width        : 60%;
 }
 
 .video-item_desc h2 {
-    color         : var(--white);
-    font-size     : 0.875rem;
-    font-weight   : 500;
-    margin-bottom : 4px;
-    text-transform: uppercase;
+    color           : var(--white);
+    font-size       : 0.875rem;
+    font-weight     : 500;
+    margin-bottom   : 4px;
+    max-width       : 210px;
+    text-transform  : uppercase;
 }
 
 .video-item_desc a {

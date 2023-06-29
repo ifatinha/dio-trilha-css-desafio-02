@@ -193,7 +193,7 @@
 }
 
 .btn-emoction {
-    background-color: var(--theme-btn_voz);
+    background-color: var(--theme-btn_gray);
     display         : inline-block;
     font-size       : 1.3rem;
     padding-top     : 8px;
@@ -219,7 +219,7 @@
 }
 
 .btn-comment {
-    background-color: var(--theme-input_hover);
+    background-color: var(--theme-blue);
     color           : var(--theme-color);
 }
 
@@ -284,7 +284,7 @@
 .btn-blue {
     align-items     : center;
     background-color: transparent;
-    color           : var(--theme-input_hover);
+    color           : var(--theme-blue);
     font-size       : 0.875rem;
     font-weight     : 500;
     gap             : 5px;

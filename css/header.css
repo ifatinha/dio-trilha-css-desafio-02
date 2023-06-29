@@ -67,7 +67,7 @@
 }
 
 .header-search_input input:hover {
-    border-color: var(--theme-input_hover);
+    border-color: var(--theme-blue);
 }
 
 .header-search_btn {
@@ -84,7 +84,7 @@
 }
 
 .header-search_voz {
-    background-color: var(--theme-btn_voz);
+    background-color: var(--theme-btn_gray);
 }
 
 .header-search_voz a {
