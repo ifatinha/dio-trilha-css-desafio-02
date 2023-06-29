@@ -297,11 +297,3 @@
 .btn-blue:hover {
     background-color: #263850;
 }
-
-/*****************************************************/
-
-.lista-videos {
-    background-color: blueviolet;
-    flex            : 0 1 450px;
-    padding         : 0 24px;
-}

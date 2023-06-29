@@ -1,0 +1,90 @@
+.video-list {
+    flex   : 0 1 450px;
+    padding: 0 24px;
+}
+
+.list-suggestion {
+    margin-bottom: 15px;
+    overflow     : hidden;
+}
+
+.list-suggestion ul {
+    gap: 8px;
+}
+
+.btn-list {
+    border-radius   : 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color           : #f1f1f1;
+    display         : inline-block;
+    font-size       : 0.875rem;
+    padding         : 6px 16px;
+    transition      : .3s all ease-in-out;
+}
+
+.btn-list:not(a#btn-white):hover {
+    background-color: var(--theme-links_hover);
+}
+
+#btn-white {
+    background-color: var(--white);
+    color           : var(--theme-color);
+}
+
+.list-videos {
+    flex-direction: column;
+    gap           : 20px;
+}
+
+.video-item {
+    border-radius   : 8px ;
+    cursor          : pointer;
+    gap             : 10px;
+    height          : 98px;
+    overflow        : hidden;
+    width           : 100%;
+}
+
+.video-item_img {
+    border-radius: 8px;
+    height       : 98px;
+    width        : 40%;
+}
+
+.video-item_img img {
+    border-radius: 8px;
+    height       : 100%;
+    object-fit   : cover;
+    width        : 100%;
+}
+
+.video-item_desc {
+    color   : var(--gray);
+    overflow: hidden;
+    width   : 60%;
+}
+
+.video-item_desc h2 {
+    color         : var(--white);
+    font-size     : 0.875rem;
+    font-weight   : 500;
+    margin-bottom : 4px;
+    text-transform: uppercase;
+}
+
+.video-item_desc a {
+    display: block;
+}
+
+.video-item_desc a,
+.video-item_desc span {
+    font-size  : 0.75rem;
+    font-weight: 400;
+}
+
+.video-item_desc span:first-of-type::after {
+    content    : "•";
+    display    : inline-block;
+    font-size  : 1.1rem;
+    margin-left: 4px;
+}
